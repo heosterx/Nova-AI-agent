@@ -1,0 +1,9 @@
+name = "nova-keep-alive"
+main = "src/index.ts"
+compatibility_date = "2024-11-01"
+
+[triggers]
+crons = ["*/5 * * * *"]
+
+[vars]
+RENDER_API_URL = "https://your-nova-api.onrender.com"
