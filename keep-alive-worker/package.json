@@ -1,0 +1,14 @@
+{
+  "name": "nova-keep-alive-worker",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "build": "echo 'No build step needed for Cloudflare Workers'"
+  },
+  "devDependencies": {
+    "wrangler": "^3.86.0",
+    "typescript": "^5.5.0"
+  }
+}
